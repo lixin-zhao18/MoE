@@ -87,8 +87,6 @@ PATH/TO/RUN_DIRECTORY/evaluation/
 
 The evaluation reports catchment-level NSE, KGE, PBIASHF and PBIASLF. High and low flows correspond to the highest 2% and lowest 30% of observed daily streamflow, respectively.
 
-For MoE, the routing temperature used during evaluation is automatically recovered from the epoch stored in the saved checkpoint and the temperature schedule defined in the configuration file.
-
 To save daily predictions for additional flow-interval analysis:
 
 ```bash
