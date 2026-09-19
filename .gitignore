@@ -1,0 +1,78 @@
+# Generated outputs and model weights
+/outputs/
+/results/
+/predictions/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+/daily_predictions.csv
+/per_basin_metrics.csv
+/routing_summary.csv
+/training_history.csv
+/feature_scaler.json
+
+# Python, test and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environments and credentials (keep environment.yml)
+.venv/
+venv/
+env/
+.conda/
+.conda_envs/
+.env
+.env.*
+!.env.example
+
+# Array and Parquet caches; do not ignore CSV/JSON metadata or configs
+*.npy
+*.npz
+*.parquet
+/cache/
+/.cache/
+
+# Local research inputs, scoped to explicitly named input directories/files
+/raw_data/
+/research_data/
+/local_data/
+/basin_timeseries/
+/BASIN_TIMESERIES/
+/STATIC_ATTRIBUTES.xlsx
+/data/raw/
+/data/local/
+/data/cache/
+
+# Temporary files, logs and local IDE/OS settings
+/tmp/
+/temp/
+/logs/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+~$*
+.idea/
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Manuscripts and drafts
+/manuscript/
+/drafts/
+*.docx
+~$*.docx
