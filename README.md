@@ -1,4 +1,4 @@
-# Adaptive knowledge sharing improves high- and low-flow simulation across global catchments
+# Adaptive cross-catchment learning improves high- and low-flow prediction
 
 This repository provides the implementation of the models used in this study.
 
